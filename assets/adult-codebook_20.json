@@ -1,0 +1,3089 @@
+{
+    "descriptions": [
+        {
+            "column_name": "RECTYPE",
+            "page_number": 1,
+            "column_description": "Record type"
+        },
+        {
+            "column_name": "SRVY_YR",
+            "page_number": 2,
+            "column_description": "Year of the National Health Interview Survey"
+        },
+        {
+            "column_name": "HHX",
+            "page_number": 3,
+            "column_description": "Randomly assigned household number unique to a household"
+        },
+        {
+            "column_name": "WTFA_A",
+            "page_number": 4,
+            "column_description": "Weight - Final Annual"
+        },
+        {
+            "column_name": "URBRRL",
+            "page_number": 5,
+            "column_description": "2013 NCHS Urban-Rural Classification Scheme for Counties"
+        },
+        {
+            "column_name": "REGION",
+            "page_number": 6,
+            "column_description": "Household region"
+        },
+        {
+            "column_name": "PSTRAT",
+            "page_number": 7,
+            "column_description": "Pseudo-stratum for public-use file variance estimation"
+        },
+        {
+            "column_name": "PPSU",
+            "page_number": 8,
+            "column_description": "Pseudo-PSU for public-use file variance estimation"
+        },
+        {
+            "column_name": "HHRESPSA_FLG",
+            "page_number": 9,
+            "column_description": "Sample Adult is the household respondent or the proxy who lives in the household"
+        },
+        {
+            "column_name": "INTV_QRT",
+            "page_number": 10,
+            "column_description": "Interview quarter"
+        },
+        {
+            "column_name": "INTV_MON",
+            "page_number": 11,
+            "column_description": "Interview month"
+        },
+        {
+            "column_name": "HHSTAT_A",
+            "page_number": 12,
+            "column_description": "Indicates person is the Sample Adult"
+        },
+        {
+            "column_name": "ASTATNEW",
+            "page_number": 13,
+            "column_description": "Recoded ASTAT"
+        },
+        {
+            "column_name": "AVAIL_A",
+            "page_number": 14,
+            "column_description": "Sample Adult Available"
+        },
+        {
+            "column_name": "PROXY_A",
+            "page_number": 15,
+            "column_description": "Proxy Available"
+        },
+        {
+            "column_name": "PROXYREL_A",
+            "page_number": 16,
+            "column_description": "Proxy's Relationship to Sample Adult"
+        },
+        {
+            "column_name": "AGEP_A",
+            "page_number": 17,
+            "column_description": "Age of SA (top coded)"
+        },
+        {
+            "column_name": "AGE65",
+            "page_number": 18,
+            "column_description": "Age 65 or older"
+        },
+        {
+            "column_name": "SEX_A",
+            "page_number": 19,
+            "column_description": "Sex of Sample Adult"
+        },
+        {
+            "column_name": "EDUC_A",
+            "page_number": 20,
+            "column_description": "Educational level of sample adult"
+        },
+        {
+            "column_name": "AFNOW",
+            "page_number": 21,
+            "column_description": "Full-time active duty screener"
+        },
+        {
+            "column_name": "HISP_A",
+            "page_number": 22,
+            "column_description": "Recode: Hispanic ethnicity of SA"
+        },
+        {
+            "column_name": "HISPALLP_A",
+            "page_number": 23,
+            "column_description": "Single and multiple race groups with Hispanic origin"
+        },
+        {
+            "column_name": "HISDETP_A",
+            "page_number": 24,
+            "column_description": "Hispanic origin detail"
+        },
+        {
+            "column_name": "RACEALLP_A",
+            "page_number": 25,
+            "column_description": "Single and multiple race groups"
+        },
+        {
+            "column_name": "PCNTTC",
+            "page_number": 26,
+            "column_description": "Top-coded count of all non-deleted household members"
+        },
+        {
+            "column_name": "PCNT18UPTC",
+            "page_number": 27,
+            "column_description": "Top-coded count of persons 18 or older in the household"
+        },
+        {
+            "column_name": "PCNTLT18TC",
+            "page_number": 28,
+            "column_description": "Top-coded count of persons under 18 in the household"
+        },
+        {
+            "column_name": "PCNTFAM_A",
+            "page_number": 29,
+            "column_description": "Number of persons in Sample Adult family, top-coded 6+"
+        },
+        {
+            "column_name": "PCNTADLT_A",
+            "page_number": 30,
+            "column_description": "Number of adults in Sample Adult family, top-coded 3+"
+        },
+        {
+            "column_name": "PCNTKIDS_A",
+            "page_number": 31,
+            "column_description": "Number of children in Sample Adult family, top-coded 3+"
+        },
+        {
+            "column_name": "OVER65FLG_A",
+            "page_number": 32,
+            "column_description": "Indicator for at least 1 person aged 65+ in SA family"
+        },
+        {
+            "column_name": "MLTFAMFLG_A",
+            "page_number": 33,
+            "column_description": "Indicator for multifamily households"
+        },
+        {
+            "column_name": "MAXEDUC_A",
+            "page_number": 34,
+            "column_description": "Highest level of education of all the adults in SA's family"
+        },
+        {
+            "column_name": "PHSTAT_A",
+            "page_number": 35,
+            "column_description": "General health status"
+        },
+        {
+            "column_name": "HYPEV_A",
+            "page_number": 36,
+            "column_description": "Ever been told you had hypertension"
+        },
+        {
+            "column_name": "HYPDIF_A",
+            "page_number": 37,
+            "column_description": "Told had hypertension on two or more visits"
+        },
+        {
+            "column_name": "HYP12M_A",
+            "page_number": 38,
+            "column_description": "Hypertension, past 12 months"
+        },
+        {
+            "column_name": "HYPMED_A",
+            "page_number": 39,
+            "column_description": "Now taking high blood pressure medication"
+        },
+        {
+            "column_name": "CHLEV_A",
+            "page_number": 40,
+            "column_description": "Ever told you had high cholesterol"
+        },
+        {
+            "column_name": "CHL12M_A",
+            "page_number": 41,
+            "column_description": "High cholesterol, past 12 months"
+        },
+        {
+            "column_name": "CHLMED_A",
+            "page_number": 42,
+            "column_description": "Now taking cholesterol medication"
+        },
+        {
+            "column_name": "CHDEV_A",
+            "page_number": 43,
+            "column_description": "Ever been told you had coronary heart disease"
+        },
+        {
+            "column_name": "ANGEV_A",
+            "page_number": 44,
+            "column_description": "Ever been told you had angina"
+        },
+        {
+            "column_name": "MIEV_A",
+            "page_number": 45,
+            "column_description": "Ever been told you had a heart attack"
+        },
+        {
+            "column_name": "STREV_A",
+            "page_number": 46,
+            "column_description": "Ever been told you had a stroke"
+        },
+        {
+            "column_name": "ASEV_A",
+            "page_number": 47,
+            "column_description": "Ever had asthma"
+        },
+        {
+            "column_name": "ASTILL_A",
+            "page_number": 48,
+            "column_description": "Still have asthma"
+        },
+        {
+            "column_name": "ASAT12M_A",
+            "page_number": 49,
+            "column_description": "Asthma episode"
+        },
+        {
+            "column_name": "ASER12M_A",
+            "page_number": 50,
+            "column_description": "Asthma ER visit"
+        },
+        {
+            "column_name": "ASHOSP12M_A",
+            "page_number": 51,
+            "column_description": "Hospitalized for asthma past 12 months"
+        },
+        {
+            "column_name": "ASDYS12MTC_A",
+            "page_number": 52,
+            "column_description": "Days can't work because of asthma"
+        },
+        {
+            "column_name": "ASINHALE3M_A",
+            "page_number": 53,
+            "column_description": "Inhaler for asthma past 3 months"
+        },
+        {
+            "column_name": "ASPREVR_A",
+            "page_number": 54,
+            "column_description": "Preventive asthma medication"
+        },
+        {
+            "column_name": "ASJOB_A",
+            "page_number": 55,
+            "column_description": "Job cause/worsen asthma"
+        },
+        {
+            "column_name": "CANEV_A",
+            "page_number": 56,
+            "column_description": "Ever been told you had cancer"
+        },
+        {
+            "column_name": "BLADDCAN_A",
+            "page_number": 57,
+            "column_description": "Bladder cancer mentioned"
+        },
+        {
+            "column_name": "BLADDAGETC_A",
+            "page_number": 58,
+            "column_description": "Age when first told had bladder cancer"
+        },
+        {
+            "column_name": "BLOODCAN_A",
+            "page_number": 59,
+            "column_description": "Blood cancer mentioned"
+        },
+        {
+            "column_name": "BLOODAGETC_A",
+            "page_number": 60,
+            "column_description": "Age when first told had blood cancer"
+        },
+        {
+            "column_name": "BONECAN_A",
+            "page_number": 61,
+            "column_description": "Bone cancer mentioned"
+        },
+        {
+            "column_name": "BONEAGETC_A",
+            "page_number": 62,
+            "column_description": "Age when first told had bone cancer"
+        },
+        {
+            "column_name": "BRAINCAN_A",
+            "page_number": 63,
+            "column_description": "Brain cancer mentioned"
+        },
+        {
+            "column_name": "BRAINAGETC_A",
+            "page_number": 64,
+            "column_description": "Age when first told had brain cancer"
+        },
+        {
+            "column_name": "BREASCAN_A",
+            "page_number": 65,
+            "column_description": "Breast cancer mentioned"
+        },
+        {
+            "column_name": "BREASAGETC_A",
+            "page_number": 66,
+            "column_description": "Age when first told had breast cancer"
+        },
+        {
+            "column_name": "CERVICAN_A",
+            "page_number": 67,
+            "column_description": "Cervical cancer mentioned"
+        },
+        {
+            "column_name": "CERVIAGETC_A",
+            "page_number": 68,
+            "column_description": "Age when first told had cervical cancer"
+        },
+        {
+            "column_name": "COLONCAN_A",
+            "page_number": 69,
+            "column_description": "Colon cancer mentioned"
+        },
+        {
+            "column_name": "COLONAGETC_A",
+            "page_number": 70,
+            "column_description": "Age when first told had colon cancer"
+        },
+        {
+            "column_name": "ESOPHCAN_A",
+            "page_number": 71,
+            "column_description": "Esophageal cancer mentioned"
+        },
+        {
+            "column_name": "ESOPHAGETC_A",
+            "page_number": 72,
+            "column_description": "Age when first told had esophageal cancer"
+        },
+        {
+            "column_name": "GALLBCAN_A",
+            "page_number": 73,
+            "column_description": "Gallbladder cancer mentioned"
+        },
+        {
+            "column_name": "GALLBAGETC_A",
+            "page_number": 74,
+            "column_description": "Age when first told had gallbladder cancer"
+        },
+        {
+            "column_name": "LARYNCAN_A",
+            "page_number": 75,
+            "column_description": "Larynx-trachea cancer mentioned"
+        },
+        {
+            "column_name": "LARYNAGETC_A",
+            "page_number": 76,
+            "column_description": "Age when first told had larynx-trachea cancer"
+        },
+        {
+            "column_name": "LEUKECAN_A",
+            "page_number": 77,
+            "column_description": "Leukemia mentioned"
+        },
+        {
+            "column_name": "LEUKEAGETC_A",
+            "page_number": 78,
+            "column_description": "Age when first told had leukemia"
+        },
+        {
+            "column_name": "LIVERCAN_A",
+            "page_number": 79,
+            "column_description": "Liver cancer mentioned"
+        },
+        {
+            "column_name": "LIVERAGETC_A",
+            "page_number": 80,
+            "column_description": "Age when first told had liver cancer"
+        },
+        {
+            "column_name": "LUNGCAN_A",
+            "page_number": 81,
+            "column_description": "Lung cancer mentioned"
+        },
+        {
+            "column_name": "LUNGAGETC_A",
+            "page_number": 82,
+            "column_description": "Age when first told had lung cancer"
+        },
+        {
+            "column_name": "LYMPHCAN_A",
+            "page_number": 83,
+            "column_description": "Lymphoma cancer mentioned"
+        },
+        {
+            "column_name": "LYMPHAGETC_A",
+            "page_number": 84,
+            "column_description": "Age when first told had lymphoma"
+        },
+        {
+            "column_name": "MELANCAN_A",
+            "page_number": 85,
+            "column_description": "Melanoma cancer mentioned"
+        },
+        {
+            "column_name": "MELANAGETC_A",
+            "page_number": 86,
+            "column_description": "Age when first told had melanoma cancer"
+        },
+        {
+            "column_name": "MOUTHCAN_A",
+            "page_number": 87,
+            "column_description": "Mouth, tongue or lip cancer mentioned"
+        },
+        {
+            "column_name": "MOUTHAGETC_A",
+            "page_number": 88,
+            "column_description": "Age when first told had mouth, tongue or lip cancer"
+        },
+        {
+            "column_name": "OVARYCAN_A",
+            "page_number": 89,
+            "column_description": "Ovarian cancer mentioned"
+        },
+        {
+            "column_name": "OVARYAGETC_A",
+            "page_number": 90,
+            "column_description": "Age when first told had ovarian cancer"
+        },
+        {
+            "column_name": "PANCRCAN_A",
+            "page_number": 91,
+            "column_description": "Pancreatic cancer mentioned"
+        },
+        {
+            "column_name": "PANCRAGETC_A",
+            "page_number": 92,
+            "column_description": "Age when first told had pancreatic cancer"
+        },
+        {
+            "column_name": "PROSTCAN_A",
+            "page_number": 93,
+            "column_description": "Prostate cancer mentioned"
+        },
+        {
+            "column_name": "PROSTAGETC_A",
+            "page_number": 94,
+            "column_description": "Age when first told had prostate cancer"
+        },
+        {
+            "column_name": "RECTUCAN_A",
+            "page_number": 95,
+            "column_description": "Rectal cancer mentioned"
+        },
+        {
+            "column_name": "RECTUAGETC_A",
+            "page_number": 96,
+            "column_description": "Age when first told had rectal cancer"
+        },
+        {
+            "column_name": "SKNMCAN_A",
+            "page_number": 97,
+            "column_description": "Skin melanoma cancer mentioned"
+        },
+        {
+            "column_name": "SKNMAGETC_A",
+            "page_number": 98,
+            "column_description": "Age when first told had skin melanoma cancer"
+        },
+        {
+            "column_name": "SKNNMCAN_A",
+            "page_number": 99,
+            "column_description": "Skin non-melanoma cancer mentioned"
+        },
+        {
+            "column_name": "SKNNMAGETC_A",
+            "page_number": 100,
+            "column_description": "Age when first told skin non-melanoma cancer"
+        },
+        {
+            "column_name": "SKNDKCAN_A",
+            "page_number": 101,
+            "column_description": "Skin cancer (don't know what kind) mentioned"
+        },
+        {
+            "column_name": "SKNDKAGETC_A",
+            "page_number": 102,
+            "column_description": "Age when first told had skin cancer (don't know what kind)"
+        },
+        {
+            "column_name": "STOMACAN_A",
+            "page_number": 103,
+            "column_description": "Stomach cancer mentioned"
+        },
+        {
+            "column_name": "STOMAAGETC_A",
+            "page_number": 104,
+            "column_description": "Age when first told had stomach cancer"
+        },
+        {
+            "column_name": "THROACAN_A",
+            "page_number": 105,
+            "column_description": "Throat - pharynx cancer mentioned"
+        },
+        {
+            "column_name": "THROAAGETC_A",
+            "page_number": 106,
+            "column_description": "Age when first told had throat-pharynx cancer"
+        },
+        {
+            "column_name": "THYROCAN_A",
+            "page_number": 107,
+            "column_description": "Thyroid cancer mentioned"
+        },
+        {
+            "column_name": "THYROAGETC_A",
+            "page_number": 108,
+            "column_description": "Age when first told had thyroid cancer"
+        },
+        {
+            "column_name": "UTERUCAN_A",
+            "page_number": 109,
+            "column_description": "Uterine cancer mentioned"
+        },
+        {
+            "column_name": "UTERUAGETC_A",
+            "page_number": 110,
+            "column_description": "Age when first told had uterine cancer"
+        },
+        {
+            "column_name": "HDNCKCAN_A",
+            "page_number": 111,
+            "column_description": "Head and neck cancers mentioned"
+        },
+        {
+            "column_name": "HDNCKAGETC_A",
+            "page_number": 112,
+            "column_description": "Age when first told had head or neck cancer"
+        },
+        {
+            "column_name": "COLRCCAN_A",
+            "page_number": 113,
+            "column_description": "Colorectal cancer mentioned"
+        },
+        {
+            "column_name": "COLRCAGETC_A",
+            "page_number": 114,
+            "column_description": "Age when first told had colon or rectal cancer"
+        },
+        {
+            "column_name": "OTHERCANP_A",
+            "page_number": 115,
+            "column_description": "Other cancer mentioned"
+        },
+        {
+            "column_name": "OTHERAGETC_A",
+            "page_number": 116,
+            "column_description": "Age when first told had other cancer"
+        },
+        {
+            "column_name": "NUMCAN_A",
+            "page_number": 117,
+            "column_description": "Number of reported types of cancers"
+        },
+        {
+            "column_name": "PREDIB_A",
+            "page_number": 118,
+            "column_description": "Ever had prediabetes"
+        },
+        {
+            "column_name": "GESDIB_A",
+            "page_number": 119,
+            "column_description": "Gestational diabetes"
+        },
+        {
+            "column_name": "DIBEV_A",
+            "page_number": 120,
+            "column_description": "Ever had diabetes"
+        },
+        {
+            "column_name": "DIBAGETC_A",
+            "page_number": 121,
+            "column_description": "Age first diagnosed w/diabetes"
+        },
+        {
+            "column_name": "DIFYRSTC_A",
+            "page_number": 122,
+            "column_description": "Years since first diagnosed w/diabetes"
+        },
+        {
+            "column_name": "DIBPILL_A",
+            "page_number": 123,
+            "column_description": "Taking diabetic pills"
+        },
+        {
+            "column_name": "DIBINS_A",
+            "page_number": 124,
+            "column_description": "Taking insulin"
+        },
+        {
+            "column_name": "DIBINSTIME_A",
+            "page_number": 125,
+            "column_description": "Time from diabetes to insulin"
+        },
+        {
+            "column_name": "DIBINSSTOP_A",
+            "page_number": 126,
+            "column_description": "Ever stop using insulin"
+        },
+        {
+            "column_name": "DIBINSSTYR_A",
+            "page_number": 127,
+            "column_description": "Only stop insulin in first year"
+        },
+        {
+            "column_name": "DIBTYPE_A",
+            "page_number": 128,
+            "column_description": "Diabetes type"
+        },
+        {
+            "column_name": "DIBREL_A",
+            "page_number": 129,
+            "column_description": "Family with diabetes"
+        },
+        {
+            "column_name": "DIABLAST_A",
+            "page_number": 130,
+            "column_description": "Last time blood sugar test"
+        },
+        {
+            "column_name": "COPDEV_A",
+            "page_number": 131,
+            "column_description": "Ever been told you had COPD, emphysema, or chronic bronchitis?"
+        },
+        {
+            "column_name": "ARTHEV_A",
+            "page_number": 132,
+            "column_description": "Ever had arthritis"
+        },
+        {
+            "column_name": "DEMENEV_A",
+            "page_number": 133,
+            "column_description": "Ever had dementia"
+        },
+        {
+            "column_name": "ANXEV_A",
+            "page_number": 134,
+            "column_description": "Ever had anxiety disorder"
+        },
+        {
+            "column_name": "DEPEV_A",
+            "page_number": 135,
+            "column_description": "Ever had depression"
+        },
+        {
+            "column_name": "KIDWEAKEV_A",
+            "page_number": 136,
+            "column_description": "Ever had weak/failing kidneys"
+        },
+        {
+            "column_name": "HEPEV_A",
+            "page_number": 137,
+            "column_description": "Ever had hepatitis"
+        },
+        {
+            "column_name": "LIVEREV_A",
+            "page_number": 138,
+            "column_description": "Ever had cirrhosis/liver condition"
+        },
+        {
+            "column_name": "MEDRXTRT_A",
+            "page_number": 139,
+            "column_description": "Weakened immune system due to prescriptions"
+        },
+        {
+            "column_name": "HLTHCOND_A",
+            "page_number": 140,
+            "column_description": "Weakened immune system due to health condition"
+        },
+        {
+            "column_name": "PREGNOW_A",
+            "page_number": 141,
+            "column_description": "Pregnant now"
+        },
+        {
+            "column_name": "HEIGHTTC_A",
+            "page_number": 142,
+            "column_description": "Total height in inches, public use"
+        },
+        {
+            "column_name": "WEIGHTLBTC_A",
+            "page_number": 143,
+            "column_description": "Weight without shoes (pounds), public use"
+        },
+        {
+            "column_name": "BMICAT_A",
+            "page_number": 144,
+            "column_description": "Categorical body mass index, public use"
+        },
+        {
+            "column_name": "WEARGLSS_A",
+            "page_number": 145,
+            "column_description": "Wear glasses/contact lenses"
+        },
+        {
+            "column_name": "VISIONDF_A",
+            "page_number": 146,
+            "column_description": "Difficulty seeing"
+        },
+        {
+            "column_name": "HEARAID_A",
+            "page_number": 147,
+            "column_description": "Use hearing aid"
+        },
+        {
+            "column_name": "HEARAIDFR_A",
+            "page_number": 148,
+            "column_description": "How often use hearing aid"
+        },
+        {
+            "column_name": "HEARINGDF_A",
+            "page_number": 149,
+            "column_description": "Difficulty hearing"
+        },
+        {
+            "column_name": "DIFF_A",
+            "page_number": 150,
+            "column_description": "Difficulty walking/steps"
+        },
+        {
+            "column_name": "EQUIP_A",
+            "page_number": 151,
+            "column_description": "Use equipment to get around"
+        },
+        {
+            "column_name": "WLK100_A",
+            "page_number": 152,
+            "column_description": "Difficulty walking 100 yards"
+        },
+        {
+            "column_name": "WLK13M_A",
+            "page_number": 153,
+            "column_description": "Difficulty walking 1/3 mile"
+        },
+        {
+            "column_name": "STEPS_A",
+            "page_number": 154,
+            "column_description": "Difficulty walking steps"
+        },
+        {
+            "column_name": "CANEWLKR_A",
+            "page_number": 155,
+            "column_description": "Use cane or walker"
+        },
+        {
+            "column_name": "WCHAIR_A",
+            "page_number": 156,
+            "column_description": "Use wheelchair/scooter"
+        },
+        {
+            "column_name": "PERASST_A",
+            "page_number": 157,
+            "column_description": "Use someone's assistance"
+        },
+        {
+            "column_name": "NOEQWLK100_A",
+            "page_number": 158,
+            "column_description": "Difficulty walking 100 yards without aid"
+        },
+        {
+            "column_name": "NOEQWLK13M_A",
+            "page_number": 159,
+            "column_description": "Difficulty walking 1/3 mile without aid"
+        },
+        {
+            "column_name": "NOEQSTEPS_A",
+            "page_number": 160,
+            "column_description": "Difficulty walking steps without equipment"
+        },
+        {
+            "column_name": "EQWLK100_A",
+            "page_number": 161,
+            "column_description": "Difficulty walking 100 yards with aid"
+        },
+        {
+            "column_name": "EQWLK13M_A",
+            "page_number": 162,
+            "column_description": "Difficulty walking 1/3 mile with aid"
+        },
+        {
+            "column_name": "EQSTEPS_A",
+            "page_number": 163,
+            "column_description": "Difficulty walking steps with equipment"
+        },
+        {
+            "column_name": "COMDIFF_A",
+            "page_number": 164,
+            "column_description": "Difficulty communicating"
+        },
+        {
+            "column_name": "COGMEMDFF_A",
+            "page_number": 165,
+            "column_description": "Difficulty remembering/concentrating"
+        },
+        {
+            "column_name": "COGTYPEDFF_A",
+            "page_number": 166,
+            "column_description": "Remembering/concentrating or both"
+        },
+        {
+            "column_name": "COGFRQDFF_A",
+            "page_number": 167,
+            "column_description": "Difficulty remembering-how often"
+        },
+        {
+            "column_name": "COGAMTDFF_A",
+            "page_number": 168,
+            "column_description": "Difficulty remembering-how much"
+        },
+        {
+            "column_name": "UPPSLFCR_A",
+            "page_number": 169,
+            "column_description": "Difficulty with self care"
+        },
+        {
+            "column_name": "UPPRAISE_A",
+            "page_number": 170,
+            "column_description": "Difficulty raising soda bottle"
+        },
+        {
+            "column_name": "UPPOBJCT_A",
+            "page_number": 171,
+            "column_description": "Difficulty using hands and fingers"
+        },
+        {
+            "column_name": "DISAB3_A",
+            "page_number": 172,
+            "column_description": "The Washington Group Short Set Composite Disability Indicator"
+        },
+        {
+            "column_name": "SOCERRNDS_A",
+            "page_number": 173,
+            "column_description": "Difficulty doing errands alone"
+        },
+        {
+            "column_name": "SOCSCLPAR_A",
+            "page_number": 174,
+            "column_description": "Difficulty participating in social activities"
+        },
+        {
+            "column_name": "SOCWRKLIM_A",
+            "page_number": 175,
+            "column_description": "Work limited due to health problem"
+        },
+        {
+            "column_name": "DEVDONSET_A",
+            "page_number": 176,
+            "column_description": "Difficulty doing activities before age 22"
+        },
+        {
+            "column_name": "NOTCOV_A",
+            "page_number": 177,
+            "column_description": "Coverage status as used in Health United States"
+        },
+        {
+            "column_name": "COVER_A",
+            "page_number": 178,
+            "column_description": "Health insurance hierarchy under 65"
+        },
+        {
+            "column_name": "COVER65_A",
+            "page_number": 179,
+            "column_description": "Health Insurance hierarchy 65+"
+        },
+        {
+            "column_name": "SINCOVDE_A",
+            "page_number": 180,
+            "column_description": "Single service plan - dental"
+        },
+        {
+            "column_name": "SINCOVVS_A",
+            "page_number": 181,
+            "column_description": "Single service plan - vision"
+        },
+        {
+            "column_name": "SINCOVRX_A",
+            "page_number": 182,
+            "column_description": "Single service plan - prescription"
+        },
+        {
+            "column_name": "MEDICARE_A",
+            "page_number": 183,
+            "column_description": "Medicare recode"
+        },
+        {
+            "column_name": "MCPART_A",
+            "page_number": 184,
+            "column_description": "Type of Medicare coverage"
+        },
+        {
+            "column_name": "MCCHOICE_A",
+            "page_number": 185,
+            "column_description": "Enrolled in Medicare Advantage Plan"
+        },
+        {
+            "column_name": "MCHMO_A",
+            "page_number": 186,
+            "column_description": "Medicare HMO"
+        },
+        {
+            "column_name": "MCADVR_A",
+            "page_number": 187,
+            "column_description": "Medicare Advantage Plan"
+        },
+        {
+            "column_name": "MCPARTD_A",
+            "page_number": 188,
+            "column_description": "Medicare Part D"
+        },
+        {
+            "column_name": "MEDICAID_A",
+            "page_number": 189,
+            "column_description": "Medicaid recode"
+        },
+        {
+            "column_name": "MAXCHNG_A",
+            "page_number": 190,
+            "column_description": "Medicaid through Marketplace"
+        },
+        {
+            "column_name": "MAPREM_A",
+            "page_number": 191,
+            "column_description": "Medicaid premium"
+        },
+        {
+            "column_name": "MADEDUC_A",
+            "page_number": 192,
+            "column_description": "Medicaid deductible"
+        },
+        {
+            "column_name": "MAHDHP_A",
+            "page_number": 193,
+            "column_description": "Medicaid HDHP"
+        },
+        {
+            "column_name": "MAFLG_A",
+            "page_number": 194,
+            "column_description": "Medicaid reassignment flag"
+        },
+        {
+            "column_name": "PRIVATE_A",
+            "page_number": 195,
+            "column_description": "Private health insurance recode"
+        },
+        {
+            "column_name": "EXCHANGE_A",
+            "page_number": 196,
+            "column_description": "Plan through Health Insurance Exchange, NCHS algorithm"
+        },
+        {
+            "column_name": "POLHLD1_A",
+            "page_number": 197,
+            "column_description": "Policyholder for private plan 1"
+        },
+        {
+            "column_name": "PRPLCOV1_A",
+            "page_number": 198,
+            "column_description": "Plan coverage for others - plan 1"
+        },
+        {
+            "column_name": "PRPOLH1_A",
+            "page_number": 199,
+            "column_description": "Relation to policyholder - plan 1"
+        },
+        {
+            "column_name": "PRPLCOV1_C_A",
+            "page_number": 200,
+            "column_description": "Response to PRPLCOV1_C or PRPLCOV2_C  from child - plan 1"
+        },
+        {
+            "column_name": "PLNWRKR1_A",
+            "page_number": 201,
+            "column_description": "How plan was originally obtained - plan 1"
+        },
+        {
+            "column_name": "PLNEXCHG1_A",
+            "page_number": 202,
+            "column_description": "Health plan obtained through Marketplace - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY1_A",
+            "page_number": 203,
+            "column_description": "Paid for by self or family - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY2_A",
+            "page_number": 204,
+            "column_description": "Paid for by employer or union - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY3_A",
+            "page_number": 205,
+            "column_description": "Paid for by someone outside the household - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY4_A",
+            "page_number": 206,
+            "column_description": "Paid for by Medicare - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY5_A",
+            "page_number": 207,
+            "column_description": "Paid for by Medicaid - plan 1"
+        },
+        {
+            "column_name": "PLN1PAY6_A",
+            "page_number": 208,
+            "column_description": "Paid for by other government program - plan 1"
+        },
+        {
+            "column_name": "HICOSTR1_A",
+            "page_number": 209,
+            "column_description": "Out-of-pocket premium cost - plan 1"
+        },
+        {
+            "column_name": "PRDEDUC1_A",
+            "page_number": 210,
+            "column_description": "Deductible - plan 1"
+        },
+        {
+            "column_name": "PRHDHP1_A",
+            "page_number": 211,
+            "column_description": "High deductible health plan - plan 1"
+        },
+        {
+            "column_name": "HSAHRA1_A",
+            "page_number": 212,
+            "column_description": "Health Savings Accounts / Health Reimbursement Accounts - plan 1"
+        },
+        {
+            "column_name": "PRRXCOV1_A",
+            "page_number": 213,
+            "column_description": "Plan pays for prescription drug - plan 1"
+        },
+        {
+            "column_name": "PRDNCOV1_A",
+            "page_number": 214,
+            "column_description": "Plan pays for dental care - plan 1"
+        },
+        {
+            "column_name": "PRVSCOV1_A",
+            "page_number": 215,
+            "column_description": "Plan pays for vision care - plan 1"
+        },
+        {
+            "column_name": "EXCHPR1_A",
+            "page_number": 216,
+            "column_description": "Exchange company coding NCHS - plan 1"
+        },
+        {
+            "column_name": "PRFLG_A",
+            "page_number": 217,
+            "column_description": "Private reassignment flag"
+        },
+        {
+            "column_name": "PXCHNG1_A",
+            "page_number": 218,
+            "column_description": "Marketplace or state exchange, reassigned from public to private"
+        },
+        {
+            "column_name": "PRPREM1_A",
+            "page_number": 219,
+            "column_description": "Premium on plan reassigned from public to private"
+        },
+        {
+            "column_name": "PLEXCHPR1_A",
+            "page_number": 220,
+            "column_description": "Exchange company coding, NCHS, reassigned from public to private"
+        },
+        {
+            "column_name": "POLHLD2_A",
+            "page_number": 221,
+            "column_description": "Policyholder for private plan 2"
+        },
+        {
+            "column_name": "PRPLCOV2_A",
+            "page_number": 222,
+            "column_description": "Plan coverage for others - plan 2"
+        },
+        {
+            "column_name": "PRPOLH2_A",
+            "page_number": 223,
+            "column_description": "Relation to policyholder - plan 2"
+        },
+        {
+            "column_name": "PRPLCOV2_C_A",
+            "page_number": 224,
+            "column_description": "Response to PRPLCOV1_C or PRPLCOV2_C from child - plan 2"
+        },
+        {
+            "column_name": "PLNWRKR2_A",
+            "page_number": 225,
+            "column_description": "How plan was originally obtained - plan 2"
+        },
+        {
+            "column_name": "PLNEXCHG2_A",
+            "page_number": 226,
+            "column_description": "Health plan obtained through Marketplace - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY1_A",
+            "page_number": 227,
+            "column_description": "Paid for by self or family - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY2_A",
+            "page_number": 228,
+            "column_description": "Paid for by employer or union - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY3_A",
+            "page_number": 229,
+            "column_description": "Paid for by someone outside the household - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY4_A",
+            "page_number": 230,
+            "column_description": "Paid for by Medicare - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY5_A",
+            "page_number": 231,
+            "column_description": "Paid for by Medicaid - plan 2"
+        },
+        {
+            "column_name": "PLN2PAY6_A",
+            "page_number": 232,
+            "column_description": "Paid for by other government program - plan 2"
+        },
+        {
+            "column_name": "HICOSTR2_A",
+            "page_number": 233,
+            "column_description": "Out-of-pocket premium cost - plan 2"
+        },
+        {
+            "column_name": "PRDEDUC2_A",
+            "page_number": 234,
+            "column_description": "Deductible - plan 2"
+        },
+        {
+            "column_name": "PRHDHP2_A",
+            "page_number": 235,
+            "column_description": "High deductible health plan - plan 2"
+        },
+        {
+            "column_name": "HSAHRA2_A",
+            "page_number": 236,
+            "column_description": "Health Savings Accounts / Health Reimbursement Accounts - plan 2"
+        },
+        {
+            "column_name": "PRRXCOV2_A",
+            "page_number": 237,
+            "column_description": "Plan pays for prescription drug - plan 2"
+        },
+        {
+            "column_name": "PRDNCOV2_A",
+            "page_number": 238,
+            "column_description": "Plan pays for dental care - plan 2"
+        },
+        {
+            "column_name": "PRVSCOV2_A",
+            "page_number": 239,
+            "column_description": "Plan pays for vision care - plan 2"
+        },
+        {
+            "column_name": "EXCHPR2_A",
+            "page_number": 240,
+            "column_description": "Exchange company coding NCHS - plan 2"
+        },
+        {
+            "column_name": "CHIP_A",
+            "page_number": 241,
+            "column_description": "Children's Health Insurance Program (CHIP) recode"
+        },
+        {
+            "column_name": "CHXCHNG_A",
+            "page_number": 242,
+            "column_description": "CHIP through Marketplace"
+        },
+        {
+            "column_name": "CHPREM_A",
+            "page_number": 243,
+            "column_description": "Pay CHIP premium"
+        },
+        {
+            "column_name": "CHDEDUC_A",
+            "page_number": 244,
+            "column_description": "CHIP deductible"
+        },
+        {
+            "column_name": "CHHDHP_A",
+            "page_number": 245,
+            "column_description": "CHIP HDHP"
+        },
+        {
+            "column_name": "CHFLG_A",
+            "page_number": 246,
+            "column_description": "CHIP reassignment flag"
+        },
+        {
+            "column_name": "OTHPUB_A",
+            "page_number": 247,
+            "column_description": "State-sponsored health plan recode"
+        },
+        {
+            "column_name": "OPXCHNG_A",
+            "page_number": 248,
+            "column_description": "State-sponsored plan through Marketplace"
+        },
+        {
+            "column_name": "OPPREM_A",
+            "page_number": 249,
+            "column_description": "Pay premium for state-sponsored plan"
+        },
+        {
+            "column_name": "OPDEDUC_A",
+            "page_number": 250,
+            "column_description": "State-sponsored plan deductible"
+        },
+        {
+            "column_name": "OPHDHP_A",
+            "page_number": 251,
+            "column_description": "State-sponsored plan HDHP"
+        },
+        {
+            "column_name": "PLEXCHOP_A",
+            "page_number": 252,
+            "column_description": "Exchange company coding, NCHS (state-sponsored plan)"
+        },
+        {
+            "column_name": "OPFLG_A",
+            "page_number": 253,
+            "column_description": "State-sponsored reassignment flag"
+        },
+        {
+            "column_name": "OTHGOV_A",
+            "page_number": 254,
+            "column_description": "Other government program recode"
+        },
+        {
+            "column_name": "OGXCHNG_A",
+            "page_number": 255,
+            "column_description": "Other government program through Marketplace"
+        },
+        {
+            "column_name": "OGPREM_A",
+            "page_number": 256,
+            "column_description": "Pay premium for other government program"
+        },
+        {
+            "column_name": "OGDEDUC_A",
+            "page_number": 257,
+            "column_description": "Other government program deductible"
+        },
+        {
+            "column_name": "OGHDHP_A",
+            "page_number": 258,
+            "column_description": "Other government program HDHP"
+        },
+        {
+            "column_name": "PLEXCHOG_A",
+            "page_number": 259,
+            "column_description": "Exchange company coding, NCHS (other government program)"
+        },
+        {
+            "column_name": "OGFLG_A",
+            "page_number": 260,
+            "column_description": "Other government reassignment flag"
+        },
+        {
+            "column_name": "MILITARY_A",
+            "page_number": 261,
+            "column_description": "Military health care coverage recode"
+        },
+        {
+            "column_name": "MILSPC1R_A",
+            "page_number": 262,
+            "column_description": "Types of military health care - VA health care"
+        },
+        {
+            "column_name": "MILSPC2_A",
+            "page_number": 263,
+            "column_description": "Types of military health care - TRICARE"
+        },
+        {
+            "column_name": "MILSPC3_A",
+            "page_number": 264,
+            "column_description": "Types of military health care - CHAMP-VA"
+        },
+        {
+            "column_name": "IHS_A",
+            "page_number": 265,
+            "column_description": "Indian Health Service recode"
+        },
+        {
+            "column_name": "HILAST_A",
+            "page_number": 266,
+            "column_description": "How long since last health coverage"
+        },
+        {
+            "column_name": "HILASTMY_A",
+            "page_number": 267,
+            "column_description": "Number of months without coverage"
+        },
+        {
+            "column_name": "HISTOPJOB_A",
+            "page_number": 268,
+            "column_description": "Lost job or changed employers"
+        },
+        {
+            "column_name": "HISTOPMISS_A",
+            "page_number": 269,
+            "column_description": "Missed deadline"
+        },
+        {
+            "column_name": "HISTOPAGE_A",
+            "page_number": 270,
+            "column_description": "Ineligible because of age/left school"
+        },
+        {
+            "column_name": "HISTOPCOST_A",
+            "page_number": 271,
+            "column_description": "Cost increase"
+        },
+        {
+            "column_name": "HISTOPELIG_A",
+            "page_number": 272,
+            "column_description": "Not eligible for Medicaid, CHIP, or other public coverage"
+        },
+        {
+            "column_name": "RSNHICOST_A",
+            "page_number": 273,
+            "column_description": "Not affordable"
+        },
+        {
+            "column_name": "RSNHIWANT_A",
+            "page_number": 274,
+            "column_description": "Do not need or want coverage"
+        },
+        {
+            "column_name": "RSNHIELIG_A",
+            "page_number": 275,
+            "column_description": "Not eligible for coverage"
+        },
+        {
+            "column_name": "RSNHICONF_A",
+            "page_number": 276,
+            "column_description": "Signing up too difficult or confusing"
+        },
+        {
+            "column_name": "RSNHIMEET_A",
+            "page_number": 277,
+            "column_description": "Cannot find a plan that meets the needs"
+        },
+        {
+            "column_name": "RSNHIWAIT_A",
+            "page_number": 278,
+            "column_description": "Coverage has not started yet"
+        },
+        {
+            "column_name": "RSNHIOTH_A",
+            "page_number": 279,
+            "column_description": "Another reason"
+        },
+        {
+            "column_name": "RSNHIJOB_A",
+            "page_number": 280,
+            "column_description": "Lost job"
+        },
+        {
+            "column_name": "RSNHIMISS_A",
+            "page_number": 281,
+            "column_description": "Missed deadline"
+        },
+        {
+            "column_name": "HINOTYR_A",
+            "page_number": 282,
+            "column_description": "No health coverage during the past 12 months"
+        },
+        {
+            "column_name": "HINOTMYR_A",
+            "page_number": 283,
+            "column_description": "Months without coverage in the past 12 months"
+        },
+        {
+            "column_name": "MILSPC1_A",
+            "page_number": 284,
+            "column_description": "Types of military health care - VA health care original response"
+        },
+        {
+            "column_name": "HICOV_A",
+            "page_number": 285,
+            "column_description": "Have health insurance"
+        },
+        {
+            "column_name": "HIKIND01_A",
+            "page_number": 286,
+            "column_description": "Kind(s) of health insurance - private health insurance"
+        },
+        {
+            "column_name": "HIKIND02_A",
+            "page_number": 287,
+            "column_description": "Kind(s) of health insurance - Medicare"
+        },
+        {
+            "column_name": "HIKIND03_A",
+            "page_number": 288,
+            "column_description": "Kind(s) of health insurance - Medicare supplement (Medigap)"
+        },
+        {
+            "column_name": "HIKIND04_A",
+            "page_number": 289,
+            "column_description": "Kind(s) of health insurance - Medicaid"
+        },
+        {
+            "column_name": "HIKIND05_A",
+            "page_number": 290,
+            "column_description": "Kind(s) of health insurance - CHIP"
+        },
+        {
+            "column_name": "HIKIND06_A",
+            "page_number": 291,
+            "column_description": "Kind(s) of health insurance - military related health care"
+        },
+        {
+            "column_name": "HIKIND07_A",
+            "page_number": 292,
+            "column_description": "Kind(s) of health insurance - Indian Health Service"
+        },
+        {
+            "column_name": "HIKIND08_A",
+            "page_number": 293,
+            "column_description": "Kind(s) of health insurance - State-sponsored health plan"
+        },
+        {
+            "column_name": "HIKIND09_A",
+            "page_number": 294,
+            "column_description": "Kind(s) of health insurance - Other government program"
+        },
+        {
+            "column_name": "HIKIND10_A",
+            "page_number": 295,
+            "column_description": "Kind(s) of health insurance - No coverage of any type"
+        },
+        {
+            "column_name": "MCAREPRB_A",
+            "page_number": 296,
+            "column_description": "Medicare coverage probe"
+        },
+        {
+            "column_name": "MCAIDPRB_A",
+            "page_number": 297,
+            "column_description": "Medicaid coverage probe"
+        },
+        {
+            "column_name": "PAYBLL12M_A",
+            "page_number": 298,
+            "column_description": "Problems paying medical bills, past 12m"
+        },
+        {
+            "column_name": "PAYNOBLLNW_A",
+            "page_number": 299,
+            "column_description": "Unable to pay medical bills"
+        },
+        {
+            "column_name": "PAYWORRY_A",
+            "page_number": 300,
+            "column_description": "Get sick or have accident, worry about paying medical bills"
+        },
+        {
+            "column_name": "CVDDIAG_A",
+            "page_number": 301,
+            "column_description": "Ever had COVID-19"
+        },
+        {
+            "column_name": "COVIDTEST_A",
+            "page_number": 302,
+            "column_description": "Ever been tested for COVID-19"
+        },
+        {
+            "column_name": "CVDRSLT_A",
+            "page_number": 303,
+            "column_description": "Tested positive for COVID-19"
+        },
+        {
+            "column_name": "CVDSEV_A",
+            "page_number": 304,
+            "column_description": "Symptoms of COVID-19"
+        },
+        {
+            "column_name": "DENPREV_A",
+            "page_number": 305,
+            "column_description": "Time since last dental exam/cleaning"
+        },
+        {
+            "column_name": "DENDL12M_A",
+            "page_number": 306,
+            "column_description": "Delayed dental care due to cost, past 12m"
+        },
+        {
+            "column_name": "DENNG12M_A",
+            "page_number": 307,
+            "column_description": "Needed dental care but did not get it due to cost, past 12m"
+        },
+        {
+            "column_name": "LASTDR_A",
+            "page_number": 308,
+            "column_description": "Time since last saw doctor"
+        },
+        {
+            "column_name": "WELLNESS_A",
+            "page_number": 309,
+            "column_description": "Was last visit a wellness visit"
+        },
+        {
+            "column_name": "WELLVIS_A",
+            "page_number": 310,
+            "column_description": "Time since last wellness visit"
+        },
+        {
+            "column_name": "USUALPL_A",
+            "page_number": 311,
+            "column_description": "Have a usual place to go for care"
+        },
+        {
+            "column_name": "USPLKIND_A",
+            "page_number": 312,
+            "column_description": "Type of place for usual care"
+        },
+        {
+            "column_name": "URGNT12MTC_A",
+            "page_number": 313,
+            "column_description": "Number of times visited urgent care, past 12m, top-coded"
+        },
+        {
+            "column_name": "EMERG12MTC_A",
+            "page_number": 314,
+            "column_description": "Number of times visited hospital emergency room, past 12m, top-coded"
+        },
+        {
+            "column_name": "HOSPONGT_A",
+            "page_number": 315,
+            "column_description": "Hospitalized overnight, past 12m"
+        },
+        {
+            "column_name": "MEDDL12M_A",
+            "page_number": 316,
+            "column_description": "Delayed medical care due to cost, past 12m"
+        },
+        {
+            "column_name": "MEDNG12M_A",
+            "page_number": 317,
+            "column_description": "Needed medical care but did not get it due to cost, past 12m"
+        },
+        {
+            "column_name": "DLYCARE_A",
+            "page_number": 318,
+            "column_description": "Delayed medical care due to COVID-19"
+        },
+        {
+            "column_name": "DNGCARE_A",
+            "page_number": 319,
+            "column_description": "Did not get medical care due to COVID-19"
+        },
+        {
+            "column_name": "VIRAPP12M_A",
+            "page_number": 320,
+            "column_description": "Virtual medical appointment, past 12m"
+        },
+        {
+            "column_name": "VIRAPPCVD_A",
+            "page_number": 321,
+            "column_description": "Virtual medical appointment related to COVID-19"
+        },
+        {
+            "column_name": "CANCOVTREA_A",
+            "page_number": 322,
+            "column_description": "Cancer treatment since the start of the coronavirus pandemic"
+        },
+        {
+            "column_name": "CANCOVCHG_A",
+            "page_number": 323,
+            "column_description": "Cancer treatment changed, delayed or cancelled due to the coronavirus pandemic"
+        },
+        {
+            "column_name": "CANCOVOTH_A",
+            "page_number": 324,
+            "column_description": "Other cancer medical care since the start of the coronavirus pandemic"
+        },
+        {
+            "column_name": "CANCOVCARE_A",
+            "page_number": 325,
+            "column_description": "Other cancer care changed, delayed, or cancelled due to coronavirus pandemic"
+        },
+        {
+            "column_name": "RX12M_A",
+            "page_number": 326,
+            "column_description": "Took prescription medication, past 12m"
+        },
+        {
+            "column_name": "RXSK12M_A",
+            "page_number": 327,
+            "column_description": "Skipped medication doses to save money, past 12m"
+        },
+        {
+            "column_name": "RXLS12M_A",
+            "page_number": 328,
+            "column_description": "Took less medication to save money, past 12m"
+        },
+        {
+            "column_name": "RXDL12M_A",
+            "page_number": 329,
+            "column_description": "Delayed filling prescription to save money, past 12m"
+        },
+        {
+            "column_name": "RXDG12M_A",
+            "page_number": 330,
+            "column_description": "Needed prescription medication but did not get it due to cost, past 12m"
+        },
+        {
+            "column_name": "OPD12M_A",
+            "page_number": 331,
+            "column_description": "Opioid use - past 12 months"
+        },
+        {
+            "column_name": "OPD3M_A",
+            "page_number": 332,
+            "column_description": "Opioid use - past 3 months"
+        },
+        {
+            "column_name": "OPDACUTE_A",
+            "page_number": 333,
+            "column_description": "Opioid use for acute pain"
+        },
+        {
+            "column_name": "OPDCHRONIC_A",
+            "page_number": 334,
+            "column_description": "Opioid use for chronic pain"
+        },
+        {
+            "column_name": "OPDFREQ_A",
+            "page_number": 335,
+            "column_description": "Frequency of opioid use"
+        },
+        {
+            "column_name": "PREGFLUYR_A",
+            "page_number": 336,
+            "column_description": "Was SA pregnant last flu season"
+        },
+        {
+            "column_name": "LIVEBIRTH_A",
+            "page_number": 337,
+            "column_description": "Any live births"
+        },
+        {
+            "column_name": "SHTFLU12M_A",
+            "page_number": 338,
+            "column_description": "Flu vaccine, past 12 months"
+        },
+        {
+            "column_name": "SHTFLUM_A",
+            "page_number": 339,
+            "column_description": "Month of last flu vaccine"
+        },
+        {
+            "column_name": "SHTFLUY_A",
+            "page_number": 340,
+            "column_description": "Year of last flu vaccine"
+        },
+        {
+            "column_name": "FLUPREG_A",
+            "page_number": 341,
+            "column_description": "Was flu shot before or during pregnancy"
+        },
+        {
+            "column_name": "FLUPREG2_A",
+            "page_number": 342,
+            "column_description": "earlier pregnancy and flu vaccine"
+        },
+        {
+            "column_name": "SHTPNUEV_A",
+            "page_number": 343,
+            "column_description": "Ever had pneumonia shot"
+        },
+        {
+            "column_name": "SHTPNEUNB_A",
+            "page_number": 344,
+            "column_description": "Number of pneumonia shots"
+        },
+        {
+            "column_name": "SHTSHINGLE_A",
+            "page_number": 345,
+            "column_description": "ever had a shingles vaccination"
+        },
+        {
+            "column_name": "ZOSTAVAX_A",
+            "page_number": 346,
+            "column_description": "Ever had Zostavax"
+        },
+        {
+            "column_name": "ZOSTAVXYRP_A",
+            "page_number": 347,
+            "column_description": "When was most recent Zostavax shot"
+        },
+        {
+            "column_name": "ZOSTAWHEN_A",
+            "page_number": 348,
+            "column_description": "Was Zostavax in 2018 or before 2018"
+        },
+        {
+            "column_name": "SHINGRIX_A",
+            "page_number": 349,
+            "column_description": "Ever had Shingrix vaccination"
+        },
+        {
+            "column_name": "SHINGRIXNB_A",
+            "page_number": 350,
+            "column_description": "How many Shingrix shots"
+        },
+        {
+            "column_name": "SHINGRXYRP_A",
+            "page_number": 351,
+            "column_description": "What year did you get your most recent Shingrix shot"
+        },
+        {
+            "column_name": "SHINGWHEN_A",
+            "page_number": 352,
+            "column_description": "Was last Shingrix in 2018 or before 2018"
+        },
+        {
+            "column_name": "TDAPPREG_A",
+            "page_number": 353,
+            "column_description": "Have a Tdap booster shot"
+        },
+        {
+            "column_name": "WORKHEALTH_A",
+            "page_number": 354,
+            "column_description": "Currently provide medical care to patients"
+        },
+        {
+            "column_name": "WRKHLTHFC_A",
+            "page_number": 355,
+            "column_description": "Currently volunteer or work in health care"
+        },
+        {
+            "column_name": "EYEEX12M_A",
+            "page_number": 356,
+            "column_description": "Had eye exam, past 12m"
+        },
+        {
+            "column_name": "THERA12M_A",
+            "page_number": 357,
+            "column_description": "Received physical/speech/rehabilitative/occupational therapy, past 12m"
+        },
+        {
+            "column_name": "HOMEHC12M_A",
+            "page_number": 358,
+            "column_description": "Received care at home, past 12m"
+        },
+        {
+            "column_name": "HOMECAREDG_A",
+            "page_number": 359,
+            "column_description": "Did not get home care due to COVID-19"
+        },
+        {
+            "column_name": "FAMCARE12M_A",
+            "page_number": 360,
+            "column_description": "Received home care from friend/family"
+        },
+        {
+            "column_name": "FAMCAREDNG_A",
+            "page_number": 361,
+            "column_description": "Did not get family care due to COVID-19"
+        },
+        {
+            "column_name": "FAMCARECVD_A",
+            "page_number": 362,
+            "column_description": "Received family care due to COVID-19"
+        },
+        {
+            "column_name": "ANXFREQ_A",
+            "page_number": 363,
+            "column_description": "How often feel worried, nervous, or anxious"
+        },
+        {
+            "column_name": "ANXMED_A",
+            "page_number": 364,
+            "column_description": "Take medication for worried/nervous/anxious feelings"
+        },
+        {
+            "column_name": "ANXLEVEL_A",
+            "page_number": 365,
+            "column_description": "Level of feelings when last felt worried/nervous/anxious"
+        },
+        {
+            "column_name": "DEPFREQ_A",
+            "page_number": 366,
+            "column_description": "How often depressed"
+        },
+        {
+            "column_name": "DEPMED_A",
+            "page_number": 367,
+            "column_description": "Take medication for depression"
+        },
+        {
+            "column_name": "DEPLEVEL_A",
+            "page_number": 368,
+            "column_description": "Level of how depressed"
+        },
+        {
+            "column_name": "MHRX_A",
+            "page_number": 369,
+            "column_description": "Took medicine for other emotions/concentration/behavior/mental health, past 12m"
+        },
+        {
+            "column_name": "MHTHRPY_A",
+            "page_number": 370,
+            "column_description": "Received counseling/therapy from mental health professional, past 12m"
+        },
+        {
+            "column_name": "MHTPYNOW_A",
+            "page_number": 371,
+            "column_description": "Currently receiving counseling/therapy from mental health professional"
+        },
+        {
+            "column_name": "MHTHDLY_A",
+            "page_number": 372,
+            "column_description": "Delayed counseling/therapy due to cost, past 12m"
+        },
+        {
+            "column_name": "MHTHND_A",
+            "page_number": 373,
+            "column_description": "Needed counseling/therapy but did not get it due to cost, past 12m"
+        },
+        {
+            "column_name": "PAIFRQ3M_A",
+            "page_number": 374,
+            "column_description": "How often had pain"
+        },
+        {
+            "column_name": "PAIAMNT_A",
+            "page_number": 375,
+            "column_description": "How much pain last time"
+        },
+        {
+            "column_name": "PAIWKLM3M_A",
+            "page_number": 376,
+            "column_description": "How often pain limits life/work"
+        },
+        {
+            "column_name": "PAIAFFM3M_A",
+            "page_number": 377,
+            "column_description": "How often pain impacts family"
+        },
+        {
+            "column_name": "PAIOTCMEDS_A",
+            "page_number": 378,
+            "column_description": "Over-the-counter medications for pain"
+        },
+        {
+            "column_name": "PAIPRSMEDS_A",
+            "page_number": 379,
+            "column_description": "Pain reliever prescribed by a doctor for pain"
+        },
+        {
+            "column_name": "PAIPHYSTPY_A",
+            "page_number": 380,
+            "column_description": "Physical therapy for pain"
+        },
+        {
+            "column_name": "PAICHIRO_A",
+            "page_number": 381,
+            "column_description": "Chiropractic care for pain"
+        },
+        {
+            "column_name": "PAITALKTPY_A",
+            "page_number": 382,
+            "column_description": "Talk therapy for pain"
+        },
+        {
+            "column_name": "PAIYOGA_A",
+            "page_number": 383,
+            "column_description": "Yoga for pain"
+        },
+        {
+            "column_name": "PAIEXRCISE_A",
+            "page_number": 384,
+            "column_description": "Exercise for pain"
+        },
+        {
+            "column_name": "PAIMASSAGE_A",
+            "page_number": 385,
+            "column_description": "Massage for pain"
+        },
+        {
+            "column_name": "PAIMEDITAT_A",
+            "page_number": 386,
+            "column_description": "Meditation for pain"
+        },
+        {
+            "column_name": "PAIMOTHER_A",
+            "page_number": 387,
+            "column_description": "Other methods for pain"
+        },
+        {
+            "column_name": "REPSTRAIN_A",
+            "page_number": 388,
+            "column_description": "Repetitive strain injuries, past 3m"
+        },
+        {
+            "column_name": "REPLIMIT_A",
+            "page_number": 389,
+            "column_description": "Limited by repetitive strain in past 3m"
+        },
+        {
+            "column_name": "REPSAWDOC_A",
+            "page_number": 390,
+            "column_description": "Saw or talked to talked about repetitive strain injury"
+        },
+        {
+            "column_name": "REPWRKDYTC_A",
+            "page_number": 391,
+            "column_description": "Number of days missed due to repetitive strain injury"
+        },
+        {
+            "column_name": "REPFUTWRK_A",
+            "page_number": 392,
+            "column_description": "Any future days of missed work due to injury"
+        },
+        {
+            "column_name": "REPSTOPCHG_A",
+            "page_number": 393,
+            "column_description": "Stopped or changed job due to repetitive strain"
+        },
+        {
+            "column_name": "REPREDUCE_A",
+            "page_number": 394,
+            "column_description": "Reduced work, changed tasks due to repetitive strain injury"
+        },
+        {
+            "column_name": "REPWRKCAUS_A",
+            "page_number": 395,
+            "column_description": "Did repetitive strain occur while working"
+        },
+        {
+            "column_name": "ANYINJURY_A",
+            "page_number": 396,
+            "column_description": "Any injury in the past 3 months (not including repetitive strains)"
+        },
+        {
+            "column_name": "INJLIMIT_A",
+            "page_number": 397,
+            "column_description": "Limited by injury in the past 3 months"
+        },
+        {
+            "column_name": "NUMINJTC_A",
+            "page_number": 398,
+            "column_description": "Number of non-repetitive strain injuries in the past 3 months"
+        },
+        {
+            "column_name": "INJHOME_A",
+            "page_number": 399,
+            "column_description": "Did injury occur at home"
+        },
+        {
+            "column_name": "INJWORK_A",
+            "page_number": 400,
+            "column_description": "Did injury occur at work"
+        },
+        {
+            "column_name": "INJSPORTS_A",
+            "page_number": 401,
+            "column_description": "Did injury occur while playing sports or exercising"
+        },
+        {
+            "column_name": "INJFALL_A",
+            "page_number": 402,
+            "column_description": "Did injury occur because of a fall"
+        },
+        {
+            "column_name": "INJFALLHOM_A",
+            "page_number": 403,
+            "column_description": "Did any fall occur at home"
+        },
+        {
+            "column_name": "INJFALLWRK_A",
+            "page_number": 404,
+            "column_description": "Did any fall occur at work"
+        },
+        {
+            "column_name": "INJMOTOR_A",
+            "page_number": 405,
+            "column_description": "Injury caused by a motor vehicle crash or collision"
+        },
+        {
+            "column_name": "INJMVTYPE1_A",
+            "page_number": 406,
+            "column_description": "Motor vehicle accident - driver"
+        },
+        {
+            "column_name": "INJMVTYPE2_A",
+            "page_number": 407,
+            "column_description": "Motor vehicle accident - passenger"
+        },
+        {
+            "column_name": "INJMVTYPE3_A",
+            "page_number": 408,
+            "column_description": "Motor vehicle accident - bicyclist"
+        },
+        {
+            "column_name": "INJMVTYPE4_A",
+            "page_number": 409,
+            "column_description": "Motor vehicle accident - pedestrian"
+        },
+        {
+            "column_name": "INJMVTYPE5_A",
+            "page_number": 410,
+            "column_description": "Motor vehicle accident - something else"
+        },
+        {
+            "column_name": "INJCHORES_A",
+            "page_number": 411,
+            "column_description": "Did injury occur while doing household activities"
+        },
+        {
+            "column_name": "INJSAWDOC_A",
+            "page_number": 412,
+            "column_description": "Saw a doctor about injury"
+        },
+        {
+            "column_name": "INJER_A",
+            "page_number": 413,
+            "column_description": "Visited ER for injury"
+        },
+        {
+            "column_name": "INJHOSP_A",
+            "page_number": 414,
+            "column_description": "Hospitalized for injury"
+        },
+        {
+            "column_name": "INJBONES_A",
+            "page_number": 415,
+            "column_description": "Did injury cause broken bones"
+        },
+        {
+            "column_name": "INJSTITCH_A",
+            "page_number": 416,
+            "column_description": "Did injury require stitches or staples"
+        },
+        {
+            "column_name": "INJWRKDYTC_A",
+            "page_number": 417,
+            "column_description": "Number of workdays missed due to injury in the past 3 months"
+        },
+        {
+            "column_name": "INJFUTWRK_A",
+            "page_number": 418,
+            "column_description": "Expected workdays missed due to injury"
+        },
+        {
+            "column_name": "INJSTOPCHG_A",
+            "page_number": 419,
+            "column_description": "Stopped working or changed jobs due to injury"
+        },
+        {
+            "column_name": "INJREDUCE_A",
+            "page_number": 420,
+            "column_description": "Reduced work or changed tasks due to injury"
+        },
+        {
+            "column_name": "FGEFRQTRD_A",
+            "page_number": 421,
+            "column_description": "How often tired, past 3m"
+        },
+        {
+            "column_name": "FGELNGTRD_A",
+            "page_number": 422,
+            "column_description": "How long tiredness lasted"
+        },
+        {
+            "column_name": "FGELEVTRD_A",
+            "page_number": 423,
+            "column_description": "Level of tiredness"
+        },
+        {
+            "column_name": "SMKEV_A",
+            "page_number": 424,
+            "column_description": "Ever smoked 100 cigarettes"
+        },
+        {
+            "column_name": "SMKAGE_A",
+            "page_number": 425,
+            "column_description": "Age started smoking regularly"
+        },
+        {
+            "column_name": "SMKNOW_A",
+            "page_number": 426,
+            "column_description": "Now smoke cigarettes"
+        },
+        {
+            "column_name": "SMKCIGST_A",
+            "page_number": 427,
+            "column_description": "Cigarette smoking status"
+        },
+        {
+            "column_name": "CIGNOW_A",
+            "page_number": 428,
+            "column_description": "Number of cigarettes a day"
+        },
+        {
+            "column_name": "SMK30D_A",
+            "page_number": 429,
+            "column_description": "Number of days smoked past month"
+        },
+        {
+            "column_name": "CIG30D_A",
+            "page_number": 430,
+            "column_description": "Number of cigarettes on days smoked past month"
+        },
+        {
+            "column_name": "SMKQTNP_A",
+            "page_number": 431,
+            "column_description": "Time since quitting smoking-number"
+        },
+        {
+            "column_name": "SMKQTTP_A",
+            "page_number": 432,
+            "column_description": "Time since quitting smoking-time period"
+        },
+        {
+            "column_name": "SMKQTY_A",
+            "page_number": 433,
+            "column_description": "Years since quit smoking"
+        },
+        {
+            "column_name": "FORNUMCIG_A",
+            "page_number": 434,
+            "column_description": "Usual number of cigarettes per day when smoked fairly regularly"
+        },
+        {
+            "column_name": "FORVARCIG_A",
+            "page_number": 435,
+            "column_description": "Average number of cigarettes during longest smoking period"
+        },
+        {
+            "column_name": "SMKQT12M_A",
+            "page_number": 436,
+            "column_description": "Stopped smoking for 1+ day, past 12 months"
+        },
+        {
+            "column_name": "SMKTLK_A",
+            "page_number": 437,
+            "column_description": "Advised by doctor about quitting cigarettes, past 12 months"
+        },
+        {
+            "column_name": "ECIGEV_A",
+            "page_number": 438,
+            "column_description": "Ever used electronic cigarettes"
+        },
+        {
+            "column_name": "ECIGNOW_A",
+            "page_number": 439,
+            "column_description": "Now use electronic cigarettes"
+        },
+        {
+            "column_name": "SMKECIGST_A",
+            "page_number": 440,
+            "column_description": "Electronic cigarette use status"
+        },
+        {
+            "column_name": "CIGAREV_A",
+            "page_number": 441,
+            "column_description": "Ever smoked a cigar"
+        },
+        {
+            "column_name": "CIGARCUR_A",
+            "page_number": 442,
+            "column_description": "Now smoke cigars"
+        },
+        {
+            "column_name": "CIGAR30D_A",
+            "page_number": 443,
+            "column_description": "How many days smoked a cigar, past 30 days"
+        },
+        {
+            "column_name": "PIPEEV_A",
+            "page_number": 444,
+            "column_description": "Ever smoked a pipe filled with tobacco"
+        },
+        {
+            "column_name": "PIPECUR_A",
+            "page_number": 445,
+            "column_description": "Now smoked pipe filled with tobacco"
+        },
+        {
+            "column_name": "SMOKELSEV_A",
+            "page_number": 446,
+            "column_description": "Ever used smokeless tobacco"
+        },
+        {
+            "column_name": "SMOKELSCUR_A",
+            "page_number": 447,
+            "column_description": "Now use smokeless tobacco"
+        },
+        {
+            "column_name": "DRKLIFE_A",
+            "page_number": 448,
+            "column_description": "Had at least one alcohol drink in lifetime"
+        },
+        {
+            "column_name": "DRK12MN_A",
+            "page_number": 449,
+            "column_description": "Days drank alcohol past 12m-number"
+        },
+        {
+            "column_name": "DRK12MN1_A",
+            "page_number": 450,
+            "column_description": "Days drank alcohol past 12m-number"
+        },
+        {
+            "column_name": "DRK12MTP_A",
+            "page_number": 451,
+            "column_description": "Days drank alcohol past 12m-time period"
+        },
+        {
+            "column_name": "DRK12MTP1_A",
+            "page_number": 452,
+            "column_description": "Days drank alcohol past 12m-time period"
+        },
+        {
+            "column_name": "DRK12MWK_A",
+            "page_number": 453,
+            "column_description": "Days drank alcohol per week, past 12m"
+        },
+        {
+            "column_name": "DRK12MYR_A",
+            "page_number": 454,
+            "column_description": "Days drank alcohol per year, past 12m"
+        },
+        {
+            "column_name": "DRKAVG12M_A",
+            "page_number": 455,
+            "column_description": "Average number of alcohol drinks on days drank"
+        },
+        {
+            "column_name": "DRKAVG12M1_A",
+            "page_number": 456,
+            "column_description": "Average number of alcohol drinks on days drank"
+        },
+        {
+            "column_name": "DRK12ANYR_A",
+            "page_number": 457,
+            "column_description": "Ever had 12+ alcohol drinks in any one year"
+        },
+        {
+            "column_name": "DKDRK12AY1_A",
+            "page_number": 458,
+            "column_description": "Ever had 12+ alcohol drinks in any one year"
+        },
+        {
+            "column_name": "DRKSTAT_A",
+            "page_number": 459,
+            "column_description": "Alcohol drinking status"
+        },
+        {
+            "column_name": "DRKBNG12M_A",
+            "page_number": 460,
+            "column_description": "Ever had 4+/5+ alcohol drinks in a day, past 12m"
+        },
+        {
+            "column_name": "DRKANY30D_A",
+            "page_number": 461,
+            "column_description": "Had any alcohol drink, past 30 days"
+        },
+        {
+            "column_name": "DRKBNG30D_A",
+            "page_number": 462,
+            "column_description": "Number of times had 4+/5+ alcohol drinks on an occasion, past 30d"
+        },
+        {
+            "column_name": "DRKHVY12M_A",
+            "page_number": 463,
+            "column_description": "Heavy alcohol drinking in the past 12m"
+        },
+        {
+            "column_name": "DRKADVISE_A",
+            "page_number": 464,
+            "column_description": "Advised by doctor to cut alcohol drinking, past 12m"
+        },
+        {
+            "column_name": "MODNR_A",
+            "page_number": 465,
+            "column_description": "Moderate physical activity-number"
+        },
+        {
+            "column_name": "MODTPR_A",
+            "page_number": 466,
+            "column_description": "Moderate physical activity-time period"
+        },
+        {
+            "column_name": "MODFREQW_A",
+            "page_number": 467,
+            "column_description": "Frequency of moderate physical activity (times per week)"
+        },
+        {
+            "column_name": "MODLNR_A",
+            "page_number": 468,
+            "column_description": "Length of moderate physical activity-number"
+        },
+        {
+            "column_name": "MODLTPR_A",
+            "page_number": 469,
+            "column_description": "Length of moderate physical activity-time period"
+        },
+        {
+            "column_name": "MODMIN_A",
+            "page_number": 470,
+            "column_description": "Duration of moderate physical activity (in minutes)"
+        },
+        {
+            "column_name": "VIGNR_A",
+            "page_number": 471,
+            "column_description": "Vigorous physical activity-number"
+        },
+        {
+            "column_name": "VIGTPR_A",
+            "page_number": 472,
+            "column_description": "Vigorous physical activity-time period"
+        },
+        {
+            "column_name": "VIGFREQW_A",
+            "page_number": 473,
+            "column_description": "Frequency of vigorous physical activity (times per week)"
+        },
+        {
+            "column_name": "VIGLNR_A",
+            "page_number": 474,
+            "column_description": "Length of vigorous physical activity-number"
+        },
+        {
+            "column_name": "VIGLTPR_A",
+            "page_number": 475,
+            "column_description": "Length of vigorous physical activity-time period"
+        },
+        {
+            "column_name": "VIGMIN_A",
+            "page_number": 476,
+            "column_description": "Duration of vigorous physical activity (in minutes)"
+        },
+        {
+            "column_name": "STRNR_A",
+            "page_number": 477,
+            "column_description": "Strengthening physical activity-number"
+        },
+        {
+            "column_name": "STRTPR_A",
+            "page_number": 478,
+            "column_description": "Strengthening physical activity-time period"
+        },
+        {
+            "column_name": "STRFREQW_A",
+            "page_number": 479,
+            "column_description": "Frequency of strengthening physical activity (times per week)"
+        },
+        {
+            "column_name": "PA18_02R_A",
+            "page_number": 480,
+            "column_description": "Physical activity met guidelines for aerobic activity"
+        },
+        {
+            "column_name": "PA18_05R_A",
+            "page_number": 481,
+            "column_description": "Physical activity met guidelines for aerobic and/or strengthening activity"
+        },
+        {
+            "column_name": "WLKTRAN_A",
+            "page_number": 482,
+            "column_description": "Walk transportation, past 7d"
+        },
+        {
+            "column_name": "WLKTRANDAY_A",
+            "page_number": 483,
+            "column_description": "How many days transportation walk, past 7d"
+        },
+        {
+            "column_name": "WLKTRANTPD_A",
+            "page_number": 484,
+            "column_description": "How many times per day transportation walk, past 7d"
+        },
+        {
+            "column_name": "WLKTRANTC_A",
+            "page_number": 485,
+            "column_description": "Length of walk for transportation top coded at 181 minutes"
+        },
+        {
+            "column_name": "WLKLEIS_A",
+            "page_number": 486,
+            "column_description": "Walk leisure, past 7d"
+        },
+        {
+            "column_name": "WLKLEISDAY_A",
+            "page_number": 487,
+            "column_description": "How many days leisure walk, past 7d"
+        },
+        {
+            "column_name": "WLKLEISTPD_A",
+            "page_number": 488,
+            "column_description": "How many times per day leisure walk, past 7d"
+        },
+        {
+            "column_name": "WLKLEISTC_A",
+            "page_number": 489,
+            "column_description": "Length of walk for leisure top-coded at 181 minutes"
+        },
+        {
+            "column_name": "HOMEWLK_A",
+            "page_number": 490,
+            "column_description": "Freq walks near own home"
+        },
+        {
+            "column_name": "ROADSWLK_A",
+            "page_number": 491,
+            "column_description": "Roads to walk where you live"
+        },
+        {
+            "column_name": "SHOPSWLK_A",
+            "page_number": 492,
+            "column_description": "Shops to walk to where live"
+        },
+        {
+            "column_name": "TRANSITWLK_A",
+            "page_number": 493,
+            "column_description": "Transit where you live"
+        },
+        {
+            "column_name": "FUNWLK_A",
+            "page_number": 494,
+            "column_description": "Fun place to walk where you live"
+        },
+        {
+            "column_name": "RELAXWLK_A",
+            "page_number": 495,
+            "column_description": "Places to relax you can walk to where you live"
+        },
+        {
+            "column_name": "SIDEWLK_A",
+            "page_number": 496,
+            "column_description": "Sidewalks where you live"
+        },
+        {
+            "column_name": "TRAFFICWLK_A",
+            "page_number": 497,
+            "column_description": "Traffic makes it unsafe to walk"
+        },
+        {
+            "column_name": "CRIMEWLK_A",
+            "page_number": 498,
+            "column_description": "Crime makes it unsafe to walk"
+        },
+        {
+            "column_name": "ANIMALWLK_A",
+            "page_number": 499,
+            "column_description": "Animals make it unsafe to walk"
+        },
+        {
+            "column_name": "WEATHERWLK_A",
+            "page_number": 500,
+            "column_description": "How often does weather make it less likely to walk"
+        },
+        {
+            "column_name": "PEOPLEWLK_A",
+            "page_number": 501,
+            "column_description": "How often are people walking in front of home"
+        },
+        {
+            "column_name": "SUNSKIN_A",
+            "page_number": 502,
+            "column_description": "What would happen to your skin after 1 hour in the sun?"
+        },
+        {
+            "column_name": "SUNSHADE_A",
+            "page_number": 503,
+            "column_description": "When you go out on a sunny day do you stay in the shade?"
+        },
+        {
+            "column_name": "SUNHAT_A",
+            "page_number": 504,
+            "column_description": "When you go out on a sunny day do wear sun hat?"
+        },
+        {
+            "column_name": "SUNSHIRT_A",
+            "page_number": 505,
+            "column_description": "How often wear long-sleeved shirt?"
+        },
+        {
+            "column_name": "SUNSCREEN_A",
+            "page_number": 506,
+            "column_description": "How often use sunscreen?"
+        },
+        {
+            "column_name": "SUNTAN_A",
+            "page_number": 507,
+            "column_description": "How often try to tan?"
+        },
+        {
+            "column_name": "ANYSBURN_A",
+            "page_number": 508,
+            "column_description": "Had any sunburns in past 12 months"
+        },
+        {
+            "column_name": "NUMBRNTC_A",
+            "page_number": 509,
+            "column_description": "Number of sunburns top-coded"
+        },
+        {
+            "column_name": "ADVACTIVE_A",
+            "page_number": 510,
+            "column_description": "Doctor advised increase activity"
+        },
+        {
+            "column_name": "ADVEAT_A",
+            "page_number": 511,
+            "column_description": "Doctor advised to reduce fat or calories"
+        },
+        {
+            "column_name": "ADVWGTPRG_A",
+            "page_number": 512,
+            "column_description": "Doctor advised to participate in weight loss plan"
+        },
+        {
+            "column_name": "NOWACTIVE_A",
+            "page_number": 513,
+            "column_description": "Are you now increasing your physical activity"
+        },
+        {
+            "column_name": "NOWEAT_A",
+            "page_number": 514,
+            "column_description": "Now reducing fat/calories"
+        },
+        {
+            "column_name": "NOWWGTPRG_A",
+            "page_number": 515,
+            "column_description": "Now in weight loss program"
+        },
+        {
+            "column_name": "SLPHOURS_A",
+            "page_number": 516,
+            "column_description": "Hours of sleep in a 24-hour period"
+        },
+        {
+            "column_name": "SLPREST_A",
+            "page_number": 517,
+            "column_description": "Wake up well rested, past 30 days"
+        },
+        {
+            "column_name": "SLPFLL_A",
+            "page_number": 518,
+            "column_description": "Trouble falling asleep, past 30 days"
+        },
+        {
+            "column_name": "SLPSTY_A",
+            "page_number": 519,
+            "column_description": "Trouble staying asleep, past 30 days"
+        },
+        {
+            "column_name": "SLPMED_A",
+            "page_number": 520,
+            "column_description": "Take medication for sleep, past 30 days"
+        },
+        {
+            "column_name": "SUPPORT_A",
+            "page_number": 521,
+            "column_description": "How often social/emotional support"
+        },
+        {
+            "column_name": "CMPSUPPORT_A",
+            "page_number": 522,
+            "column_description": "Social/emotional support, past 12 months"
+        },
+        {
+            "column_name": "ORIENT_A",
+            "page_number": 523,
+            "column_description": "Sexual orientation"
+        },
+        {
+            "column_name": "MARITAL_A",
+            "page_number": 524,
+            "column_description": "Sample adult's current marital status"
+        },
+        {
+            "column_name": "SPOUSLIV_A",
+            "page_number": 525,
+            "column_description": "Sample adult's spouse lives here"
+        },
+        {
+            "column_name": "SPOUSEP_A",
+            "page_number": 526,
+            "column_description": "Sample adult's spouse does not reside here due to legal separation"
+        },
+        {
+            "column_name": "EVRMARRIED_A",
+            "page_number": 527,
+            "column_description": "Sample adult has ever been married"
+        },
+        {
+            "column_name": "MARSTAT_A",
+            "page_number": 528,
+            "column_description": "Current marital status of sample adult"
+        },
+        {
+            "column_name": "LEGMSTAT_A",
+            "page_number": 529,
+            "column_description": "Legal marital status of sample adult"
+        },
+        {
+            "column_name": "SPOUSESEX_A",
+            "page_number": 530,
+            "column_description": "Sex of sample adult's spouse"
+        },
+        {
+            "column_name": "SASPPRACE_A",
+            "page_number": 531,
+            "column_description": "Race of sample adult and spouse or partner are the same"
+        },
+        {
+            "column_name": "SASPPHISP_A",
+            "page_number": 532,
+            "column_description": "Hispanic ethnicity of sample adult and spouse or partner are the same"
+        },
+        {
+            "column_name": "SPOUSAGETC_A",
+            "page_number": 533,
+            "column_description": "Age of sample adult's spouse, top-coded"
+        },
+        {
+            "column_name": "SPOUSEDUC_A",
+            "page_number": 534,
+            "column_description": "Education level of sample adult's spouse"
+        },
+        {
+            "column_name": "SPOUSWRK_A",
+            "page_number": 535,
+            "column_description": "Working status of sample adult's spouse"
+        },
+        {
+            "column_name": "SPOUSWKFT_A",
+            "page_number": 536,
+            "column_description": "Sample adult's spouse is working full-time"
+        },
+        {
+            "column_name": "PRTNRSEX_A",
+            "page_number": 537,
+            "column_description": "Sex of the sample adult's partner"
+        },
+        {
+            "column_name": "PRTNRAGETC_A",
+            "page_number": 538,
+            "column_description": "Age of sample adult's partner, top-coded"
+        },
+        {
+            "column_name": "PRTNREDUC_A",
+            "page_number": 539,
+            "column_description": "Education level of sample adult's partner"
+        },
+        {
+            "column_name": "PRTNRWRK_A",
+            "page_number": 540,
+            "column_description": "Working status of sample adult's partner"
+        },
+        {
+            "column_name": "PRTNRWKFT_A",
+            "page_number": 541,
+            "column_description": "Sample adult's partner is working full-time"
+        },
+        {
+            "column_name": "SAPARENTSC_A",
+            "page_number": 542,
+            "column_description": "Sample adult relationship to sample child"
+        },
+        {
+            "column_name": "PARSTAT_A",
+            "page_number": 543,
+            "column_description": "Parental Status of sample adult"
+        },
+        {
+            "column_name": "AFVET_A",
+            "page_number": 544,
+            "column_description": "Ever serve active duty military"
+        },
+        {
+            "column_name": "AFVETTRN_A",
+            "page_number": 545,
+            "column_description": "Reserves or National Guard"
+        },
+        {
+            "column_name": "COMBAT_A",
+            "page_number": 546,
+            "column_description": "Ever served abroad during armed conflict"
+        },
+        {
+            "column_name": "VADISB_A",
+            "page_number": 547,
+            "column_description": "Have VA disability rating"
+        },
+        {
+            "column_name": "VAHOSP_A",
+            "page_number": 548,
+            "column_description": "Receive care at VA facility"
+        },
+        {
+            "column_name": "VACAREEV_A",
+            "page_number": 549,
+            "column_description": "Ever use VA health care"
+        },
+        {
+            "column_name": "NATUSBORN_A",
+            "page_number": 550,
+            "column_description": "Born in U.S. or U.S. territory"
+        },
+        {
+            "column_name": "YRSINUS_A",
+            "page_number": 551,
+            "column_description": "Years that sample adult has been in the United States"
+        },
+        {
+            "column_name": "CITZNSTP_A",
+            "page_number": 552,
+            "column_description": "Citizenship status"
+        },
+        {
+            "column_name": "SCHCURENR_A",
+            "page_number": 553,
+            "column_description": "Currently in school"
+        },
+        {
+            "column_name": "SCHDYMSSTC_A",
+            "page_number": 554,
+            "column_description": "Days missed due to illness/injury, past 12 m"
+        },
+        {
+            "column_name": "EMPWRKLSWK_A",
+            "page_number": 555,
+            "column_description": "Worked last week"
+        },
+        {
+            "column_name": "EMPWKHRS2_A",
+            "page_number": 556,
+            "column_description": "Hours worked last week (topcoded for Public Use)"
+        },
+        {
+            "column_name": "EMPWRKFT_A",
+            "page_number": 557,
+            "column_description": "Usually work 35+ hours per week"
+        },
+        {
+            "column_name": "EMPRSNOWK_A",
+            "page_number": 558,
+            "column_description": "Main reason for not working last week"
+        },
+        {
+            "column_name": "EMPLSTWORK_A",
+            "page_number": 559,
+            "column_description": "Last time worked for pay"
+        },
+        {
+            "column_name": "EMDINDSTR1_A",
+            "page_number": 560,
+            "column_description": "Detailed 2-digit recode for sample adult's industry"
+        },
+        {
+            "column_name": "EMDINDSTR2_A",
+            "page_number": 561,
+            "column_description": "Simple 2-digit recode for sample adult's industry"
+        },
+        {
+            "column_name": "EMDOCCUPR1_A",
+            "page_number": 562,
+            "column_description": "Detailed 2-digit recode for sample adult's occupation"
+        },
+        {
+            "column_name": "EMDOCCUPR2_A",
+            "page_number": 563,
+            "column_description": "Simple 2-digit recode for sample adult's occupation"
+        },
+        {
+            "column_name": "EMDSPRVIS_A",
+            "page_number": 564,
+            "column_description": "Sample adult supervised other employees while on the job"
+        },
+        {
+            "column_name": "EMDWRKCAT_A",
+            "page_number": 565,
+            "column_description": "Type of main job"
+        },
+        {
+            "column_name": "EMPPDSKLV_A",
+            "page_number": 566,
+            "column_description": "Received paid sick leave at last week's job or business"
+        },
+        {
+            "column_name": "EMPOFFHI_A",
+            "page_number": 567,
+            "column_description": "Health insurance offered at job held last week"
+        },
+        {
+            "column_name": "EMPDYSMSS2_A",
+            "page_number": 568,
+            "column_description": "Days missed work in past 12 months due to illness/injury/disability (top-coded)"
+        },
+        {
+            "column_name": "CURJOBSD_A",
+            "page_number": 569,
+            "column_description": "Current job - Social distancing at work"
+        },
+        {
+            "column_name": "WRKCLSSD_A",
+            "page_number": 570,
+            "column_description": "Current job - Work close to others with social distancing in effect"
+        },
+        {
+            "column_name": "WRKCLSNOSD_A",
+            "page_number": 571,
+            "column_description": "Current job - Work close to others when social distancing not in effect"
+        },
+        {
+            "column_name": "WRKCLSOFT_A",
+            "page_number": 572,
+            "column_description": "Current job - How often work close to others"
+        },
+        {
+            "column_name": "SDMSRS_A",
+            "page_number": 573,
+            "column_description": "Current job - Social distancing measures since coronavirus pandemic"
+        },
+        {
+            "column_name": "SDMSRSOFT_A",
+            "page_number": 574,
+            "column_description": "Current job - Work close to others when social distancing measures in effect"
+        },
+        {
+            "column_name": "RECJOBSD_A",
+            "page_number": 575,
+            "column_description": "Recent job - Social distancing at work"
+        },
+        {
+            "column_name": "RJWRKCLSSD_A",
+            "page_number": 576,
+            "column_description": "Recent job - Work close to others with social distancing in effect"
+        },
+        {
+            "column_name": "RJWCLSNOSD_A",
+            "page_number": 577,
+            "column_description": "Recent job - Work close to others when social distancing not in effect"
+        },
+        {
+            "column_name": "RJWKCLSOFT_A",
+            "page_number": 578,
+            "column_description": "Recent job - How often work close to others"
+        },
+        {
+            "column_name": "JOBANYSD_A",
+            "page_number": 579,
+            "column_description": "Current or recent job - Social distancing at any time"
+        },
+        {
+            "column_name": "CLSWRKSD_A",
+            "page_number": 580,
+            "column_description": "Current or recent job - Work close to others with social distancing in effect"
+        },
+        {
+            "column_name": "CLSWRKNOSD_A",
+            "page_number": 581,
+            "column_description": "Current or recent job - Work close to others when no social distancing measures"
+        },
+        {
+            "column_name": "PCNTADTWKP_A",
+            "page_number": 582,
+            "column_description": "Number of adults in sample adult's family who are working"
+        },
+        {
+            "column_name": "PCNTADTWFP_A",
+            "page_number": 583,
+            "column_description": "Number of adults in sample adult's family who are working full-time"
+        },
+        {
+            "column_name": "INCWRKO_A",
+            "page_number": 584,
+            "column_description": "Income from wages"
+        },
+        {
+            "column_name": "INCINTER_A",
+            "page_number": 585,
+            "column_description": "Income from accounts"
+        },
+        {
+            "column_name": "INCSSRR_A",
+            "page_number": 586,
+            "column_description": "Income from SS/Railroad Retirement"
+        },
+        {
+            "column_name": "INCSSISSDI_A",
+            "page_number": 587,
+            "column_description": "Family income from SSDI"
+        },
+        {
+            "column_name": "SSISSDIBTH_A",
+            "page_number": 588,
+            "column_description": "Which family income SSI/SSDI"
+        },
+        {
+            "column_name": "SSISSDIDSB_A",
+            "page_number": 589,
+            "column_description": "SSI/SSDI due to disability"
+        },
+        {
+            "column_name": "INCWELF_A",
+            "page_number": 590,
+            "column_description": "Income from public assistance"
+        },
+        {
+            "column_name": "INCRETIRE_A",
+            "page_number": 591,
+            "column_description": "Income from retirement"
+        },
+        {
+            "column_name": "INCOTHR_A",
+            "page_number": 592,
+            "column_description": "Income from other sources"
+        },
+        {
+            "column_name": "FAMINCTC_A",
+            "page_number": 593,
+            "column_description": "Sample adult family income (top-coded)"
+        },
+        {
+            "column_name": "POVRATTC_A",
+            "page_number": 594,
+            "column_description": "SA family poverty ratio (top-coded)"
+        },
+        {
+            "column_name": "INCGRP_A",
+            "page_number": 595,
+            "column_description": "Sample adult family income (grouped)"
+        },
+        {
+            "column_name": "RATCAT_A",
+            "page_number": 596,
+            "column_description": "Ratio of family income to poverty threshold for SA's family"
+        },
+        {
+            "column_name": "IMPINCFLG_A",
+            "page_number": 597,
+            "column_description": "Imputed SA family income imputation flag"
+        },
+        {
+            "column_name": "INCTCFLG_A",
+            "page_number": 598,
+            "column_description": "Sample adult family income top-code flag"
+        },
+        {
+            "column_name": "FSNAP12M_A",
+            "page_number": 599,
+            "column_description": "Receive food stamps, past 12m"
+        },
+        {
+            "column_name": "FSNAP30D_A",
+            "page_number": 600,
+            "column_description": "Receive food stamps, past 30d"
+        },
+        {
+            "column_name": "FWIC12M_A",
+            "page_number": 601,
+            "column_description": "Receive WIC benefits, past 12m"
+        },
+        {
+            "column_name": "FLUNCH12M_A",
+            "page_number": 602,
+            "column_description": "Receive free/reduced meals at school"
+        },
+        {
+            "column_name": "FDSRUNOUT_A",
+            "page_number": 603,
+            "column_description": "Worry food would run out"
+        },
+        {
+            "column_name": "FDSLAST_A",
+            "page_number": 604,
+            "column_description": "Food didn't last"
+        },
+        {
+            "column_name": "FDSBALANCE_A",
+            "page_number": 605,
+            "column_description": "Couldn't afford to eat balanced meals"
+        },
+        {
+            "column_name": "FDSSKIP_A",
+            "page_number": 606,
+            "column_description": "Cut the size of meals or skip meals"
+        },
+        {
+            "column_name": "FDSSKIPDYS_A",
+            "page_number": 607,
+            "column_description": "How many days did you/adults in the family cut the size of meals or skip meals"
+        },
+        {
+            "column_name": "FDSLESS_A",
+            "page_number": 608,
+            "column_description": "Eat less than should"
+        },
+        {
+            "column_name": "FDSHUNGRY_A",
+            "page_number": 609,
+            "column_description": "Ever hungry because not enough money for food"
+        },
+        {
+            "column_name": "FDSWEIGHT_A",
+            "page_number": 610,
+            "column_description": "Lose weight because not enough money for food"
+        },
+        {
+            "column_name": "FDSNOTEAT_A",
+            "page_number": 611,
+            "column_description": "not eat for a whole day"
+        },
+        {
+            "column_name": "FDSNEDAYS_A",
+            "page_number": 612,
+            "column_description": "How many days not eat"
+        },
+        {
+            "column_name": "FDSCAT3_A",
+            "page_number": 613,
+            "column_description": "Adult 3 category food security recode"
+        },
+        {
+            "column_name": "FDSCAT4_A",
+            "page_number": 614,
+            "column_description": "Adult  4 category food security recode"
+        },
+        {
+            "column_name": "HOUYRSLIV_A",
+            "page_number": 615,
+            "column_description": "Length of time in house/apartment"
+        },
+        {
+            "column_name": "HOUTENURE_A",
+            "page_number": 616,
+            "column_description": "Residence owned/rented"
+        },
+        {
+            "column_name": "HOUGVASST_A",
+            "page_number": 617,
+            "column_description": "Paying lower rent"
+        }
+    ]
+}
